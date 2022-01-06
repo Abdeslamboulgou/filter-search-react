@@ -1,0 +1,30 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin:40px 600px  10px  570px ;
+
+}
+.fruit{
+  color: black;
+}
+.fruit:hover{
+  color: rgb(185, 142, 142);
+  background-color: rgb(49, 49, 48);
+}
+.search{
+  padding:10px;
+  border-radius: 10px;
+}
+input[type=search] {
+  width: 90%;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+input[type=search]:focus {
+  width: 100%;
+}
